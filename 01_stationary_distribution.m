@@ -33,3 +33,4 @@ plot(x, normal_pdf, 'r', 'LineWidth', 2);
 hold off;
 title('Final time distribution of numerical solution')
 legend('Y final', '\rho_{\infty}')
+
