@@ -20,7 +20,7 @@ nSteps = T/h; % Number of steps for exact solution
 % Generating exact solution single trajectory
 Y = zeros(nSteps+1, 1);
 Y(1) = X0;
-dW = sqrt(h)*randn(1, nSteps); %Generating brownian increments
+dW = sqrt(h)*randn(1, nSteps); %Generating Brownian increments
 for ii = 1:nSteps
     Y(ii+1) = Y(ii) - alpha * Y(ii) * h + sqrt(2*sigma) * dW(ii); %Euler-Maruyama method
 end
@@ -51,3 +51,4 @@ hold on
 yline(1, '-r', '\sigma = 1', 'LineWidth', 1.5)
 title('\sigma estimators')
 xlabel('number of available observations')
+
