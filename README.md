@@ -1,7 +1,7 @@
 # Parameter Inference for Stochastic Differential Equations (SDEs)
 
 ## Overview
-This repository investigates the problem of inferring the parameters of a Stochastic Differential Equation (SDE) given discrete-time observations of a single continuous trajectory. Specifically, the project focuses on deriving, implementing, and analyzing estimators for the drift ($\alpha$) and diffusion ($\sigma$) coefficients of the Ornstein-Uhlenbeck (OU) process. 
+This repository investigates the problem of inferring the parameters of a Stochastic Differential Equation (SDE) given discrete-time observations of a single continuous trajectory. Specifically, the project focuses on deriving, implementing and analyzing estimators for the drift ($\alpha$) and diffusion ($\sigma$) coefficients of the Ornstein-Uhlenbeck (OU) process. 
 
 The OU process is widely used in physics and biology, and its governing SDE is defined over $t\in[0,T]$ as:
 
